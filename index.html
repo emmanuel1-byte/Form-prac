@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    
+    <section>
+        <form autocomplete="on">
+            <header>
+                <h1>Contact us</h1>
+            </header>
+            
+            <label name="fname">Fullname:</label>
+            <input  class="l1" type="text" placeholder="fullname.." name="fname" required><br>
+
+            <label  name="Lname">Phone:</label>
+            <input class="l2" type="text" placeholder="phoneNumber.." name="phone" required><br>
+
+            <label name="country">Country</label>
+            <select name="select" class="s1" required>
+               <option>Nigeria</option>
+               <option>Togo</option>
+               <option>Ghana</option>
+            </select><br>
+
+            <label name="mssage" >Message:</label>
+            <textarea placeholder="write something.." name="message" required>
+            </textarea><br>
+            
+            <input class="button" type="submit" value="Submit">
+        </form>
+
+    </section>
+    
+</body>
+</html>
